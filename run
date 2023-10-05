@@ -14,6 +14,5 @@ FROM=./src/$FILE
 TO=./output/$FILE
 rm -rf ./output/*
 cp $FROM $TO
-INPUT="$(echo $2 | awk 'NF {p=1} p' | tac | awk 'NF {p=1} p' | tac)"
-echo $INPUT | python3 $TO
-
+INPUT="$(echo "$2" | awk 'NF {p=1} p' | tac | awk 'NF {p=1} p' | tac)"
+echo "$INPUT" | python3 $TO

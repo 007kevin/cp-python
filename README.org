@@ -1,0 +1,14 @@
+#+STARTUP: showeverything
+
+* Resources
+** How To Practice
+https://codeforces.com/blog/entry/116371
+** Python
+https://github.com/peterlamar/python-cp-cheatsheet
+
+* Progress
+- [Oct 2/2023] [[https://codeforces.com/problemset/page/1?tags=1200-1600][default sort 1200-1600]]
+  | problem                                       | rating | solved |
+  |-----------------------------------------------+--------+--------|
+  | https://codeforces.com/contest/1879/problem/C |   1300 | n      |
+  | https://codeforces.com/contest/1873/problem/G |   1500 | n      |
